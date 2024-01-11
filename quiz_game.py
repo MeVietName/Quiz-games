@@ -3,7 +3,7 @@ print("Welcome ! You will pass a little quiz about Vietnam !")
 def ready():
     ready_answer = input("Do you want to start the quiz ? Y or N : ")
     
-    if ready_answer == "Y":
+    if ready_answer == "Y", "y":
         print("Let's start !")
         return true
     elif ready_answer == "N":
